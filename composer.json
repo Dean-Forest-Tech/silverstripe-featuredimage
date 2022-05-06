@@ -20,7 +20,7 @@
 	},
 	"require": {
 		"silverstripe/framework": "^4.0",
-		"silverstripe/assets": "^1.0",
+		"silverstripe/assets": "^1.0"
 	},
     "autoload": {
         "psr-4": {
