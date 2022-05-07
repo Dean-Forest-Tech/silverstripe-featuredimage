@@ -1,0 +1,9 @@
+---
+Name: featuredimageconfig
+Only:
+  moduleexists: 'silverstripe/cms'
+---
+
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - ilateral\silverstripe-featuredimage\ObjectExtension
