@@ -7,7 +7,7 @@ use SilverStripe\ORM\DataExtension;
 use SilverStripe\ORM\Queries\SQLSelect;
 use SilverStripe\ORM\Queries\SQLUpdate;
 
-class BlogFeaturedImageMigrationTask extends DataExtension
+class BlogPostExtension extends DataExtension
 {
     /**
      * Quickly tap into dev/build process to copy featured image IDs
