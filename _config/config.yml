@@ -7,3 +7,12 @@ Only:
 SilverStripe\CMS\Model\SiteTree:
   extensions:
     - ilateral\SilverStripe\FeaturedImage\ObjectExtension
+
+---
+Only:
+  moduleexists: 'silverstripe/blog'
+---
+
+SilverStripe\Blog\Model\BlogPost:
+  extensions:
+    - ilateral\SilverStripe\FeaturedImage\BlogPostExtension
