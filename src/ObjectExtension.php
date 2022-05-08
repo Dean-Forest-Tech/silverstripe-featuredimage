@@ -82,6 +82,11 @@ class ObjectExtension extends DataExtension
             ->byIDs($ids)
             ->columnUnique('FeaturedImageID');
 
+        // If no images, ensure we return an empty set
+        if (count($image_ids) === 0) {
+            $image_ids[] = 0;
+        }
+
         return Image::get()->byIDs($image_ids);
     }
 }
