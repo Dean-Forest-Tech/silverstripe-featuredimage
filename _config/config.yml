@@ -6,4 +6,4 @@ Only:
 
 SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - ilateral\silverstripe-featuredimage\ObjectExtension
+    - ilateral\SilverStripe\FeaturedImage\ObjectExtension
