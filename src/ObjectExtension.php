@@ -2,7 +2,9 @@
 
 namespace ilateral\SilverStripe\FeaturedImage;
 
+use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;
+use SilverStripe\Forms\FieldList;
 use SilverStripe\ORM\ArrayList;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\ORM\DataExtension;
@@ -14,6 +16,14 @@ class ObjectExtension extends DataExtension
     private static $has_one = [
         'FeaturedImage' => Image::class
     ];
+
+    public function updateCMSFields(FieldList $fields)
+    {
+        $fields->addFieldToTab(
+            'Root.Main',
+            UploadField::create('FeaturedImage')
+        );
+    }
 
     /**
      * Get a list of featured images from hierachy (if set). If not,
