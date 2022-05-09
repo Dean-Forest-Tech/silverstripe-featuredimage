@@ -32,6 +32,11 @@ class BlogPostExtension extends DataExtension
                 ->assign('"FeaturedImageID"', $row['FeaturedImageID'])
                 ->execute();
 
+            SQLUpdate::create('SiteTree_Live')
+                ->addWhere(['ID' => $row['ID']])
+                ->assign('"FeaturedImageID"', $row['FeaturedImageID'])
+                ->execute();
+
             $migrated++; 
         }
 
