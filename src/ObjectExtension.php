@@ -17,6 +17,10 @@ class ObjectExtension extends DataExtension
         'FeaturedImage' => Image::class
     ];
 
+    private static $owns = [
+        'FeaturedImage'
+    ];
+
     public function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldToTab(
