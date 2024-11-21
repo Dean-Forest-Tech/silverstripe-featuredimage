@@ -19,7 +19,8 @@
 		"issues": "http://github.com/Dean-Forest-Tech/silverstripe-featuredimage/issues"
 	},
 	"require": {
-		"silverstripe/cms": "^4 || ^5"
+		"silverstripe/framework": "^4 || ^5",
+		"silverstripe/assets": "^1 || ^2"
 	},
     "autoload": {
         "psr-4": {
