@@ -6,7 +6,7 @@ Adds generic featured image to defined DataObjects and adds some extra helper me
 
 Install via composer:
 
-    composer require "i-lateral/silverstripe-featuredimage"
+    composer require "dft/silverstripe-featuredimage"
 
 ## Setup
 
@@ -15,7 +15,7 @@ featured images to. You can do this via YML config:
 
     Path\To\My\Object:
         extensions:
-            - ilateral\SilverStripe\FeaturedImage\ObjectExtension
+            - DFT\SilverStripe\FeaturedImage\ObjectExtension
 
 **NOTE** By default, this module adds a featured image to `SiteTree ` (if the
 CMS is installed).
