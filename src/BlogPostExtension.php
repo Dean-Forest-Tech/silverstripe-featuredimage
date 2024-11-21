@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\FeaturedImage;
+namespace DFT\SilverStripe\FeaturedImage;
 
 use SilverStripe\ORM\DB;
 use SilverStripe\ORM\DataExtension;

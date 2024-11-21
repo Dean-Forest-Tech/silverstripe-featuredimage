@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\FeaturedImage;
+namespace DFT\SilverStripe\FeaturedImage;
 
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;
